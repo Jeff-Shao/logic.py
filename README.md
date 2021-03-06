@@ -31,7 +31,5 @@ An example of a valid equation is:
 
 `(A and B) xor (not C)`
 
-## Credits
-
 ## Disclaimer
 This program comes without warranty of any kind. It may or may not harm your device. Please use with care, as any damage cannot be related back to the author.
