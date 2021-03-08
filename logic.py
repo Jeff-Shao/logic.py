@@ -120,7 +120,7 @@ def genTruthTable(equation, vars, varVals={}):
         # Print out a line containing the results obtained.
         print('| ', end='')
         for key, data in results.items():
-            if key is not 'Result':
+            if key != 'Result':
                 if data:
                     print('T | ', end='')
                 else:
@@ -157,7 +157,7 @@ def main():
             # Print the results.
             resultStatement = f'\nThe result of "{equation}" for '
             for key, data in results.items():
-                if key is not 'Result':
+                if key != 'Result':
                     resultStatement += f'{key} = "{data}"; '
                 else:
                     resultStatement += f'is "{data}".\n'
